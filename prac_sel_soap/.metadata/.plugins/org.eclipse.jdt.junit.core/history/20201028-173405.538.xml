@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="E2EProjct" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="cucmberOptions.TestRunner" time="46.298">
+    <testsuite name="Feature: Login into Application" time="46.298">
+      <testsuite name="Scenario Outline: Positive test validation login" time="46.298">
+        <testsuite name="Examples:" time="46.298">
+          <testsuite name="| test99@gmail.com | 123456 |" time="23.174">
+            <testcase name="Given Intialize the browser with &quot;chrome&quot;" classname="| test99@gmail.com | 123456 |" time="8.249"/>
+            <testcase name="And Navigate to &quot;https://rahulshettyacademy.com&quot; site" classname="| test99@gmail.com | 123456 |" time="13.866"/>
+            <testcase name="And Click on login link in home page to land on secure sign in page" classname="| test99@gmail.com | 123456 |" time="0.22"/>
+            <testcase name="When User enters test99@gmail.com and 123456 and logs in" classname="| test99@gmail.com | 123456 |" time="0.189"/>
+            <testcase name="Then Verify that the user is successfully logged in" classname="| test99@gmail.com | 123456 |" time="0.649"/>
+            <testcase name="And Close browser" classname="| test99@gmail.com | 123456 |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| test98@mail.com | 456321 |" time="17.762">
+            <testcase name="Given Intialize the browser with &quot;chrome&quot;" classname="| test98@mail.com | 456321 |" time="6.571"/>
+            <testcase name="And Navigate to &quot;https://rahulshettyacademy.com&quot; site" classname="| test98@mail.com | 456321 |" time="10.14"/>
+            <testcase name="And Click on login link in home page to land on secure sign in page" classname="| test98@mail.com | 456321 |" time="0.225"/>
+            <testcase name="When User enters test98@mail.com and 456321 and logs in" classname="| test98@mail.com | 456321 |" time="0.179"/>
+            <testcase name="Then Verify that the user is successfully logged in" classname="| test98@mail.com | 456321 |" time="0.644"/>
+            <testcase name="And Close browser" classname="| test98@mail.com | 456321 |" time="0.003"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

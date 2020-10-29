@@ -1,0 +1,6 @@
+03:02:22.216 [main] INFO  Log4j_continued.seleniumtestcase_log4j.act - Successfully switched to frame
+03:02:22.219 [main] DEBUG Log4j_continued.seleniumtestcase_log4j.act - Identifying Draggable objects
+03:02:22.524 [main] INFO  Log4j_continued.seleniumtestcase_log4j.act - Drag and drop success
+03:03:39.851 [main] DEBUG Log4j_continued.seleniumtestcase_log4j.act - Setting chrome driver property
+03:03:45.480 [main] INFO  Log4j_continued.seleniumtestcase_log4j.act - Window Maximized
+03:03:45.480 [main] DEBUG Log4j_continued.seleniumtestcase_log4j.act - Now hitting Amazon server

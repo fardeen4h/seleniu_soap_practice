@@ -1,0 +1,15 @@
+package Academy.E2EProjct;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+public class hompage extends base{
+
+	@Test
+	public void basepagenavigation() throws IOException 
+	{
+		driver=intailizedriver();
+		driver.get("https://qaclickacademy.com");
+	}
+}

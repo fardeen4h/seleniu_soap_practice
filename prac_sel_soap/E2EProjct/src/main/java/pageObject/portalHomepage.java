@@ -1,0 +1,33 @@
+package pageObject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+
+public class portalHomepage {
+	
+	public WebDriver driver;
+	public portalHomepage(WebDriver driver) 
+	{
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	By srchbx=By.name("query");
+	By chkbx=By.id("checkbox");
+//	By text=By.cssSelector("hq[text()='One more step']");
+	By text=By.tagName("h1");
+	public WebElement searchbox() 
+	{
+		return driver.findElement(srchbx);
+	}
+	public WebElement textcheck() 
+	{
+		return driver.findElement(text);
+	}
+	
+	
+	
+	
+}

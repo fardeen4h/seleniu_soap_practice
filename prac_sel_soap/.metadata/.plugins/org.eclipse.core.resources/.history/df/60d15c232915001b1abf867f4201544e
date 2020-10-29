@@ -1,0 +1,21 @@
+package Academy.E2EProjct;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class base {
+
+	public void intailizedriver() throws IOException 
+	{
+		//chrome
+		//firefox
+		//ie
+		
+		Properties prop= new Properties();
+		FileInputStream fis=new FileInputStream("E:\\Eclipse_Workspace_dir\\E2EProjct\\src\\main\\java\\Academy\\E2EProjct\\data.properties");
+		prop.load(fis);
+		prop.getProperty("browser");
+	}
+}

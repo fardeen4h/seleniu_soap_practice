@@ -1,0 +1,6 @@
+21:26:23.020 [main] DEBUG Log4j_continued.seleniumtestcase_log4j.act - Setting chrome driver property
+21:26:29.011 [main] INFO  Log4j_continued.seleniumtestcase_log4j.act - Window Maximized
+21:26:29.012 [main] DEBUG Log4j_continued.seleniumtestcase_log4j.act - Now hitting Amazon server
+21:26:34.532 [main] INFO  Log4j_continued.seleniumtestcase_log4j.act - Landed on amazon home page
+21:26:40.060 [main] DEBUG Log4j_continued.seleniumtestcase_log4j.act - Getting the frames count
+21:26:40.277 [main] INFO  Log4j_continued.seleniumtestcase_log4j.act - Frames count retreived

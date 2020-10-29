@@ -1,0 +1,32 @@
+package Academy.E2EProjct;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObject.LandingPage;
+import resources.base;
+
+public class validateText extends base{
+
+	@Test
+	public void basepagenavigation() throws IOException, InterruptedException 
+	{
+		driver=intailizedriver();
+		String url=prop.getProperty("url");
+		driver.get(url);
+		driver.get(url);
+		LandingPage l=new LandingPage(driver);
+		String wait=prop.getProperty("wait");
+		int wait1 = Integer.valueOf(wait);
+		Thread.sleep(wait1);
+		Assert.assertEquals(l.getText().getText(), "Learn Earn & Shine");
+		
+		
+		
+		driver.close();
+	}
+	
+	
+}

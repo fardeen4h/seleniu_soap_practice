@@ -1,0 +1,20 @@
+package Academy.E2EProjct;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+public class base {
+
+	public void intailizedriver() throws FileNotFoundException 
+	{
+		//chrome
+		//firefox
+		//ie
+		
+		Properties prop= new Properties();
+		FileInputStream fis=new FileInputStream("E:\\Eclipse_Workspace_dir\\E2EProjct\\src\\main\\java\\Academy\\E2EProjct\\data.properties");
+		prop.load(fis);
+		
+	}
+}

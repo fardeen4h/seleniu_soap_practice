@@ -1,0 +1,5 @@
+package MavenProject.ExtentReports;
+
+public class ExtentReportDemo {
+
+}

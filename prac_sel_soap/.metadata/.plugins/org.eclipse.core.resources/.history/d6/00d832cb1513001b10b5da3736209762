@@ -1,0 +1,17 @@
+package MavenProject.ExtentReports;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class ExtentReportDemo {
+	
+	@Test
+	public void intialDemo()
+	{
+		System.setProperty("webdriver.chrome.driver", "E:\\SoapUi_Scripts\\Selinum\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new WebDriver();
+		driver.get("https://google.com");
+		System.out.println(driver.getTitle());
+	}
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Academy.E2EProjct.validatenavbar"/>
+      <class name="Academy.E2EProjct.AppTest"/>
+      <class name="Academy.E2EProjct.validateText"/>
+      <class name="Academy.E2EProjct.hompage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

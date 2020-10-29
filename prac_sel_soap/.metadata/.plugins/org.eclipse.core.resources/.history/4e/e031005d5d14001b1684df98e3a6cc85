@@ -1,0 +1,93 @@
+package exceldatadrive;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.util.NumberToTextConverter;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class dataDriven {
+
+	//identify the column of the first row 
+	//onec column is found the scan the column and get purcchase row 
+	//garab all the purchase data
+	
+	
+	public ArrayList<String> getdata(String testcasename) throws IOException
+	{
+		//file input stream object 
+		ArrayList <String> a = new ArrayList <String>();
+		
+		FileInputStream fis = new FileInputStream("E:\\Selenium_jenkins_soapuiscripts\\demoData.xlsx");
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		
+		int sheetcount=workbook.getNumberOfSheets();
+		for(int i = 0;i<sheetcount;i++)
+		{
+			//testdata
+			if(workbook.getSheetName(i).equalsIgnoreCase("testdata"))
+			{
+			XSSFSheet sheet=workbook.getSheetAt(i);
+			//identify the column of the first row 
+			Iterator<Row> row= sheet.iterator();
+			Row firstrow=row.next();
+			Iterator<Cell> celit=firstrow.cellIterator();
+			int k=0;
+			int coloumn = 0;
+			while(celit.hasNext())
+			{
+				Cell value=celit.next();
+//				value.getStringCellValue().equalsIgnoreCase("TestCases")
+				String val=value.getStringCellValue();
+				if(val=="TestCases")
+				{
+					//you reached the desired column 
+					coloumn=k;
+				}
+				k++;
+				
+			}
+//			System.out.println(coloumn);
+			while(row.hasNext())
+			{
+				Row r=row.next();
+				if(r.getCell(coloumn).getStringCellValue().equalsIgnoreCase(testcasename))
+				{
+					Iterator<Cell> cv=r.cellIterator();
+					while(cv.hasNext())
+					{
+						Cell c=cv.next();
+						if(c.getCellTypeEnum()==CellType.STRING) 
+						{
+						a.add(cv.next().getStringCellValue());
+						}
+						else
+						{
+						a.add(NumberToTextConverter.toText(c.getNumericCellValue()));	
+						
+						}
+					}
+				}
+//				return a;
+			}
+			}
+			workbook.close();
+		}
+//		return a;
+		return a;
+	}
+	
+	public static void main(String[] args) throws IOException 
+	{
+		// TODO Auto-generated method stub
+
+
+		
+	}
+
+}

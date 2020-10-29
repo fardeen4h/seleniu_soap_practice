@@ -1,0 +1,13 @@
+18:21:50.495 [TestNG-tests-1] INFO  resources.base - nonrestriced user
+18:21:51.073 [TestNG-tests-1] INFO  resources.base - Clicking submit button
+18:21:51.405 [TestNG-tests-1] INFO  resources.base - Hitting back button
+18:21:51.975 [TestNG-tests-1] INFO  resources.base - Hitting home page
+18:21:51.976 [TestNG-tests-1] INFO  resources.base - waitng for 5 sec
+18:21:56.981 [TestNG-tests-1] INFO  resources.base - waiting for 5 secs 
+18:22:05.621 [TestNG-tests-1] INFO  resources.base - hitting sign in page
+18:22:05.840 [TestNG-tests-1] INFO  resources.base - passing username
+18:22:05.933 [TestNG-tests-1] INFO  resources.base - passing pwd
+18:22:05.933 [TestNG-tests-1] INFO  resources.base - nouser data
+18:22:06.546 [TestNG-tests-1] INFO  resources.base - Clicking submit button
+18:22:06.924 [TestNG-tests-1] INFO  resources.base - Hitting back button
+18:22:07.000 [TestNG-tests-1] INFO  resources.base - driver closed

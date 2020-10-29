@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-14T11:54:51 IST" name="Loan_Test_Suite" finished-at="2020-10-14T11:54:51 IST" duration-ms="90">
+    <groups>
+    </groups>
+    <test started-at="2020-10-14T11:54:51 IST" name="Personal Loan" finished-at="2020-10-14T11:54:51 IST" duration-ms="42">
+      <class name="test.Day1">
+        <test-method signature="Demo()[pri:0, instance:test.Day1@7fc2413d]" started-at="2020-10-14T11:54:51 IST" name="Demo" finished-at="2020-10-14T11:54:51 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method signature="SecondDay(java.lang.String, java.lang.String)[pri:0, instance:test.Day2@f8c1ddd]" started-at="2020-10-14T11:54:51 IST" name="SecondDay" finished-at="2020-10-14T11:54:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personallaon.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDay -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Day4">
+        <test-method signature="MobileLoginhomeloan()[pri:0, instance:test.Day4@70be0a2b]" started-at="2020-10-14T11:54:51 IST" name="MobileLoginhomeloan" finished-at="2020-10-14T11:54:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginhomeloan -->
+        <test-method signature="RestAPILoginhomeloan()[pri:0, instance:test.Day4@70be0a2b]" started-at="2020-10-14T11:54:51 IST" name="RestAPILoginhomeloan" finished-at="2020-10-14T11:54:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPILoginhomeloan -->
+        <test-method signature="webLoginhomeloan()[pri:0, instance:test.Day4@70be0a2b]" started-at="2020-10-14T11:54:51 IST" name="webLoginhomeloan" finished-at="2020-10-14T11:54:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginhomeloan -->
+      </class> <!-- test.Day4 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2020-10-14T11:54:51 IST" name="CarLoan" finished-at="2020-10-14T11:54:51 IST" duration-ms="6">
+      <class name="test.Day3">
+        <test-method signature="RestAPILogin()[pri:0, instance:test.Day3@2ddc8ecb]" started-at="2020-10-14T11:54:51 IST" name="RestAPILogin" finished-at="2020-10-14T11:54:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPILogin -->
+        <test-method signature="webLogin()[pri:0, instance:test.Day3@2ddc8ecb]" started-at="2020-10-14T11:54:51 IST" name="webLogin" finished-at="2020-10-14T11:54:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogin -->
+      </class> <!-- test.Day3 -->
+    </test> <!-- CarLoan -->
+  </suite> <!-- Loan_Test_Suite -->
+</testng-results>

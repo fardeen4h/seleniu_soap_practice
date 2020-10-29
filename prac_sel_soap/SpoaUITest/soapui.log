@@ -1,0 +1,27 @@
+2020-10-20 11:43:01,674 WARN  [SoapUI] Missing folder [E:\Eclipse_Workspace_dir\SpoaUITest\ext] for external libraries
+2020-10-20 11:43:01,789 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\user\soapui-settings.xml]
+2020-10-20 11:43:02,335 INFO  [Reflections] Reflections took 77 ms to scan 2 urls, producing 75 keys and 160 values 
+2020-10-20 11:43:02,372 INFO  [Reflections] Reflections took 19 ms to scan 1 urls, producing 46 keys and 344 values 
+2020-10-20 11:43:02,384 INFO  [Reflections] Reflections took 6 ms to scan 1 urls, producing 11 keys and 17 values 
+2020-10-20 11:43:02,398 INFO  [Reflections] Reflections took 6 ms to scan 1 urls, producing 13 keys and 21 values 
+2020-10-20 11:43:02,745 INFO  [Reflections] Reflections took 166 ms to scan 13 urls, producing 341 keys and 1458 values 
+2020-10-20 11:43:02,757 INFO  [PluginManager] Adding plugin from [C:\Users\user\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2020-10-20 11:43:02,757 INFO  [PluginManager] Adding plugin from [C:\Users\user\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2020-10-20 11:43:02,801 INFO  [Reflections] Reflections took 28 ms to scan 2 urls, producing 75 keys and 160 values 
+2020-10-20 11:43:02,982 INFO  [Reflections] Reflections took 170 ms to scan 13 urls, producing 341 keys and 1458 values 
+2020-10-20 11:43:03,364 INFO  [Reflections] Reflections took 551 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2020-10-20 11:43:03,391 INFO  [PluginManager] Adding plugin from [C:\Users\user\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar]
+2020-10-20 11:43:03,413 INFO  [Reflections] Reflections took 12 ms to scan 1 urls, producing 46 keys and 344 values 
+2020-10-20 11:43:03,485 INFO  [Reflections] Reflections took 487 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2020-10-20 11:43:03,500 INFO  [PluginManager] Adding plugin from [C:\Users\user\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2020-10-20 11:43:03,509 INFO  [Reflections] Reflections took 6 ms to scan 1 urls, producing 11 keys and 17 values 
+2020-10-20 11:43:03,804 INFO  [Reflections] Reflections took 385 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2020-10-20 11:43:03,809 INFO  [PluginManager] Adding plugin from [C:\Users\user\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2020-10-20 11:43:03,817 INFO  [Reflections] Reflections took 3 ms to scan 1 urls, producing 13 keys and 21 values 
+2020-10-20 11:43:03,902 INFO  [Reflections] Reflections took 388 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2020-10-20 11:43:04,144 INFO  [Reflections] Reflections took 323 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2020-10-20 11:43:04,151 INFO  [PluginManager] 5 plugins loaded in 1394 ms
+2020-10-20 11:43:04,151 INFO  [DefaultSoapUICore] All plugins loaded
+2020-10-20 11:43:04,924 INFO  [WsdlProject] Loaded project from [file:/C:/Users/user/Documents/REST-Project-3-soapui-project.xml]
+2020-10-20 11:43:06,340 WARN  [Tools] Could not delete temporary directory C:\Users\user\AppData\Local\Temp\f8f798ce-1a38-47e4-8d00-5d336ef184b8
+2020-10-20 11:43:06,347 WARN  [Tools] Could not delete temporary directory C:\Users\user\AppData\Local\Temp\73c57ca4-cc11-4ed8-ba49-57b6b09e495f

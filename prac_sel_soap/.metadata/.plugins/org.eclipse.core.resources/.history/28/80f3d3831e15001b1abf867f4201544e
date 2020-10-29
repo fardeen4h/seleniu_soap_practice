@@ -1,0 +1,22 @@
+package testCases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import objectrepository.Reddifloginpage;
+
+public class LoginApplication {
+
+	public void login() 
+	{
+		System.setProperty("webdriver.chrome.driver","E:\\Selenium_jenkins_soapuiscripts\\Selinum\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver =new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://reddif.com");
+		Reddifloginpage rl= new Reddifloginpage(driver);
+		rl.email().sendKeys("hellzy");
+		rl.pwd().sendKeys("noozy");
+		rl.go().click();
+		
+	}
+}

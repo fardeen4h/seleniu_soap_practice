@@ -1,0 +1,26 @@
+package Academy.E2EProjct;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import pageObject.LandingPage;
+import pageObject.LoginPage;
+import resources.base;
+
+public class hompage extends base{
+
+	@Test
+	public void basepagenavigation() throws IOException, InterruptedException 
+	{
+		driver=intailizedriver();
+		driver.get("https://rahulshettyacademy.com/");
+		LandingPage l=new LandingPage(driver);
+		Thread.sleep(5000);
+		l.getlogin().click();
+		LoginPage lp=new LoginPage(driver);
+		lp.emailbox().sendKeys("tutl");
+		lp.pwdbox().sendKeys("letitrip");
+		lp.submitbuttn().click();
+	}
+}

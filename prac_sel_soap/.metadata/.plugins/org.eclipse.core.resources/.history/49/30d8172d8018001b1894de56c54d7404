@@ -1,0 +1,10 @@
+package stepDefinations;
+
+public class stepDefination {
+
+	@Given("^user_is_on_netbanking_login_page$")
+	public void user_is_on_netbanking_login_page() 
+	{
+		
+	}
+}

@@ -1,0 +1,30 @@
+package Academy.E2EProjct;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObject.LandingPage;
+import resources.base;
+
+public class validatenavbar extends base{
+
+	@Test
+	public void basepagenavigation() throws IOException, InterruptedException 
+	{
+		driver=intailizedriver();
+		driver.get("https://rahulshettyacademy.com/");
+		LandingPage l=new LandingPage(driver);
+		Thread.sleep(5000);
+		Assert.assertTrue(l.headerbar().isDisplayed());
+//		Assert.assertEquals(l.getText().getText(), "Learn Earn & Shine");
+		
+		
+		
+		
+		driver.close();
+	}
+	
+	
+}

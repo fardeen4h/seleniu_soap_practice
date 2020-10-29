@@ -1,0 +1,15 @@
+18:21:22.223 [TestNG-tests-1] INFO  resources.base - Hitting home page
+18:21:22.226 [TestNG-tests-1] INFO  resources.base - waitng for 5 sec
+18:21:27.241 [TestNG-tests-1] INFO  resources.base - waiting for 5 secs 
+18:21:35.705 [TestNG-tests-1] INFO  resources.base - hitting sign in page
+18:21:35.800 [TestNG-tests-1] INFO  resources.base - passing username
+18:21:35.879 [TestNG-tests-1] INFO  resources.base - passing pwd
+18:21:35.879 [TestNG-tests-1] INFO  resources.base - restriced user
+18:21:36.144 [TestNG-tests-1] INFO  resources.base - Clicking submit button
+18:21:36.542 [TestNG-tests-1] INFO  resources.base - Hitting back button
+18:21:36.959 [TestNG-tests-1] INFO  resources.base - Hitting home page
+18:21:36.959 [TestNG-tests-1] INFO  resources.base - waitng for 5 sec
+18:21:41.967 [TestNG-tests-1] INFO  resources.base - waiting for 5 secs 
+18:21:49.938 [TestNG-tests-1] INFO  resources.base - hitting sign in page
+18:21:50.365 [TestNG-tests-1] INFO  resources.base - passing username
+18:21:50.494 [TestNG-tests-1] INFO  resources.base - passing pwd

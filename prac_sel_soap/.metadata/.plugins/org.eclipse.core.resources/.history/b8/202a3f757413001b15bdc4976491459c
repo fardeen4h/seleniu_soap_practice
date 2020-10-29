@@ -1,0 +1,56 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Iterator;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class dataDriven {
+
+	//identify the column of the first row 
+	//onec column is found the scan the column and get purcchase row 
+	//garab all the purchase data 
+	
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+
+		//file input stream object 
+		
+		FileInputStream fis = new FileInputStream("C:\\Users\\user\\Documents\\demoData.xlsx");
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		
+		int sheetcount=workbook.getNumberOfSheets();
+		for(int i = 0;i<sheetcount;i++)
+		{
+			if(workbook.getSheetName(i)=="testdata")
+			{
+			XSSFSheet sheet=workbook.getSheetAt(i);
+			//identify the column of the first row 
+			Iterator<Row> it= sheet.iterator();
+			Row firstrow=it.next();
+			Iterator<Cell> celit=firstrow.cellIterator();
+			int k=0;
+			int column = 0;
+			while(celit.hasNext())
+			{
+				Cell value=celit.next();
+				String val=value.getStringCellValue();
+				if(val=="TestCases")
+				{
+					//you reached the desired column 
+					column=k;
+				}
+				k++;
+				System.out.println(column);
+			}
+			
+			}
+		}
+		workbook.close();
+		
+	}
+
+}

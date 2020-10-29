@@ -1,0 +1,10 @@
+package intro;
+
+public class Pagition_Secnario_with_streams {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

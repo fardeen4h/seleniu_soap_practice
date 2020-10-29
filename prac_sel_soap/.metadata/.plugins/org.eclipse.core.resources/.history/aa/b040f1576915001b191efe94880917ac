@@ -1,0 +1,20 @@
+package Academy.E2EProjct;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import pageObject.LandingPage;
+import resources.base;
+
+public class hompage extends base{
+
+	@Test
+	public void basepagenavigation() throws IOException 
+	{
+		driver=intailizedriver();
+		driver.get("https://rahulshettyacademy.com/");
+		LandingPage l=new LandingPage(driver);
+		l.getlogin().click();
+	}
+}

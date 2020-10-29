@@ -1,0 +1,3 @@
+21:26:40.303 [main] INFO  Log4j_continued.seleniumtestcase_log4j.act - Successfully switched to frame
+21:26:40.305 [main] DEBUG Log4j_continued.seleniumtestcase_log4j.act - Identifying Draggable objects
+21:26:40.764 [main] INFO  Log4j_continued.seleniumtestcase_log4j.act - Drag and drop success

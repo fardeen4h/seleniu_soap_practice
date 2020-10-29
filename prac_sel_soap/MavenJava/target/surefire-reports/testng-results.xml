@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-21T01:22:29 IST" name="Command line suite" finished-at="2020-10-21T01:22:29 IST" duration-ms="36">
+    <groups>
+    </groups>
+    <test started-at="2020-10-21T01:22:29 IST" name="Command line test" finished-at="2020-10-21T01:22:29 IST" duration-ms="36">
+      <class name="MavenPrj.MavenJava.AppiumTest">
+        <test-method signature="NativeAndroidApp()[pri:0, instance:MavenPrj.MavenJava.AppiumTest@5c18298f]" started-at="2020-10-21T01:22:29 IST" name="NativeAndroidApp" finished-at="2020-10-21T01:22:29 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeAndroidApp -->
+        <test-method signature="iosApps()[pri:0, instance:MavenPrj.MavenJava.AppiumTest@5c18298f]" started-at="2020-10-21T01:22:29 IST" name="iosApps" finished-at="2020-10-21T01:22:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosApps -->
+      </class> <!-- MavenPrj.MavenJava.AppiumTest -->
+      <class name="MavenPrj.MavenJava.RestAPITest">
+        <test-method signature="PostJira()[pri:0, instance:MavenPrj.MavenJava.RestAPITest@31f924f5]" started-at="2020-10-21T01:22:29 IST" name="PostJira" finished-at="2020-10-21T01:22:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJira -->
+        <test-method signature="delettwitter()[pri:0, instance:MavenPrj.MavenJava.RestAPITest@31f924f5]" started-at="2020-10-21T01:22:29 IST" name="delettwitter" finished-at="2020-10-21T01:22:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delettwitter -->
+      </class> <!-- MavenPrj.MavenJava.RestAPITest -->
+      <class name="MavenPrj.MavenJava.SeleniumTest">
+        <test-method signature="BrowseAutoation()[pri:0, instance:MavenPrj.MavenJava.SeleniumTest@5579bb86]" started-at="2020-10-21T01:22:29 IST" name="BrowseAutoation" finished-at="2020-10-21T01:22:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseAutoation -->
+        <test-method signature="elementUi()[pri:0, instance:MavenPrj.MavenJava.SeleniumTest@5579bb86]" started-at="2020-10-21T01:22:29 IST" name="elementUi" finished-at="2020-10-21T01:22:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementUi -->
+      </class> <!-- MavenPrj.MavenJava.SeleniumTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

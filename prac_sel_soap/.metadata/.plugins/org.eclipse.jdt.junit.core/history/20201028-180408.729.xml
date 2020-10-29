@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="E2EProjct" tests="12" started="12" failures="0" errors="4" ignored="10">
+  <testsuite name="cucmberOptions.TestRunner" time="0.023">
+    <testsuite name="Feature: Login into Application" time="0.023">
+      <testsuite name="Scenario Outline: Positive test validation login" time="0.023">
+        <testsuite name="Examples:" time="0.023">
+          <testsuite name="| test99@gmail.com | 123456 |" time="0.004" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at resources.base.intailizedriver(base.java:37)&#13;
+	at stepDefinations.stepDefination.intialize_the_browser_with(stepDefination.java:21)&#13;
+	at ✽.Given Intialize the browser with "chrome"(Login.feature:4)&#13;
+&#13;
+</error>
+            <testcase name="Given Intialize the browser with &quot;chrome&quot;" classname="| test99@gmail.com | 123456 |" time="0.003">
+              <error>java.lang.NullPointerException&#13;
+	at resources.base.intailizedriver(base.java:37)&#13;
+	at stepDefinations.stepDefination.intialize_the_browser_with(stepDefination.java:21)&#13;
+	at ✽.Given Intialize the browser with "chrome"(Login.feature:4)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="And Navigate to &quot;https://rahulshettyacademy.com&quot; site" classname="| test99@gmail.com | 123456 |" time="0.0" ignored="true"/>
+            <testcase name="And Click on login link in home page to land on secure sign in page" classname="| test99@gmail.com | 123456 |" time="0.0" ignored="true"/>
+            <testcase name="When User enters test99@gmail.com and 123456 and logs in" classname="| test99@gmail.com | 123456 |" time="0.0" ignored="true"/>
+            <testcase name="Then Verify that the user is successfully logged in" classname="| test99@gmail.com | 123456 |" time="0.001" ignored="true"/>
+            <testcase name="And Close browser" classname="| test99@gmail.com | 123456 |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="| test98@mail.com | 456321 |" time="0.0" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at resources.base.intailizedriver(base.java:37)&#13;
+	at stepDefinations.stepDefination.intialize_the_browser_with(stepDefination.java:21)&#13;
+	at ✽.Given Intialize the browser with "chrome"(Login.feature:4)&#13;
+&#13;
+</error>
+            <testcase name="Given Intialize the browser with &quot;chrome&quot;" classname="| test98@mail.com | 456321 |" time="0.0">
+              <error>java.lang.NullPointerException&#13;
+	at resources.base.intailizedriver(base.java:37)&#13;
+	at stepDefinations.stepDefination.intialize_the_browser_with(stepDefination.java:21)&#13;
+	at ✽.Given Intialize the browser with "chrome"(Login.feature:4)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="And Navigate to &quot;https://rahulshettyacademy.com&quot; site" classname="| test98@mail.com | 456321 |" time="0.0" ignored="true"/>
+            <testcase name="And Click on login link in home page to land on secure sign in page" classname="| test98@mail.com | 456321 |" time="0.0" ignored="true"/>
+            <testcase name="When User enters test98@mail.com and 456321 and logs in" classname="| test98@mail.com | 456321 |" time="0.0" ignored="true"/>
+            <testcase name="Then Verify that the user is successfully logged in" classname="| test98@mail.com | 456321 |" time="0.0" ignored="true"/>
+            <testcase name="And Close browser" classname="| test98@mail.com | 456321 |" time="0.0" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

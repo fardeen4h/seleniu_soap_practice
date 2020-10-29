@@ -1,0 +1,50 @@
+package stepDefinations;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+public class stepDefination {
+
+    @Given("^user is on netbanking login page$")
+    public void user_is_on_netbanking_login_page_() throws Throwable {
+        //code
+    	System.out.println("Navigated to the loging url");
+    }
+
+//    @When("^user logs into applivation with user name and password$")
+//    public void user_logs_into_applivation_with_user_name_and_password() throws Throwable {
+//        //code
+//    	System.out.println("Logged in");
+//    }
+
+    @When("^user logs into applivation with user \"([^\"]*)\" and password \"([^\"]*)\"$")
+    public void user_logs_into_applivation_with_user_and_password(String arg1, String arg2) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    	System.out.println("Logged in with"+arg1+"with pwd"+arg2);
+    }
+
+    
+
+    @Then("^Home page is populated$")
+    public void Home_page_is_populated() throws Throwable {
+        //code
+    	System.out.println("Home page validated ");
+    }
+
+    @And("^cards are displayed$")
+    public void cards_are_displayed() throws Throwable {
+        //code
+    	System.out.println("Cards are displayed");
+    }
+
+    @Then("^cards are displayed \"([^\"]*)\"$")
+    public void cards_are_displayed(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println("cards displayed "+arg1);
+    }
+
+}

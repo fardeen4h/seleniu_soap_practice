@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="E2EProjct" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="cucmberOptions.TestRunner" time="30.569">
+    <testsuite name="Feature: Login into Application" time="30.569">
+      <testsuite name="Scenario: Positive test validation login" time="30.569">
+        <testcase name="Given Intialize the browser with &quot;chrome&quot;" classname="Scenario: Positive test validation login" time="6.931"/>
+        <testcase name="And Navigate to &quot;https://rahulshettyacademy.com&quot; site" classname="Scenario: Positive test validation login" time="23.202"/>
+        <testcase name="And Click on login link in home page to land on secure sign in page" classname="Scenario: Positive test validation login" time="0.359"/>
+        <testcase name="When User enters &quot;test99@gmail.com&quot; and &quot;123456&quot; and logs in" classname="Scenario: Positive test validation login" time="0.075"/>
+        <testcase name="Then Verify that the user is successfully logged in" classname="Scenario: Positive test validation login" time="0.002"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

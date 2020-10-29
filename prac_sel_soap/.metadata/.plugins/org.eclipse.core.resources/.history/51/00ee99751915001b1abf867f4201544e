@@ -1,0 +1,13 @@
+package objectrepository;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Reddifloginpage {
+	
+	WebDriver driver;
+	By username=By.xpath("");
+	By Password=By.name("passwd");
+	By go=By.name("proceed");
+
+}

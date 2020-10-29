@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="E2EProjct" tests="5" started="5" failures="0" errors="2" ignored="4">
+  <testsuite name="cucmberOptions.TestRunner" time="0.005">
+    <testsuite name="Feature: Login into Application" time="0.005">
+      <testsuite name="Scenario: Positive test validation login" time="0.001" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at resources.base.intailizedriver(base.java:37)&#13;
+	at stepDefinations.stepDefination.intialize_the_browser_with(stepDefination.java:23)&#13;
+	at ✽.Given Intialize the browser with "chrome"(Login.feature:4)&#13;
+&#13;
+</error>
+        <testcase name="Given Intialize the browser with &quot;chrome&quot;" classname="Scenario: Positive test validation login" time="0.001">
+          <error>java.lang.NullPointerException&#13;
+	at resources.base.intailizedriver(base.java:37)&#13;
+	at stepDefinations.stepDefination.intialize_the_browser_with(stepDefination.java:23)&#13;
+	at ✽.Given Intialize the browser with "chrome"(Login.feature:4)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And Navigate to &quot;https://rahulshettyacademy.com&quot; site" classname="Scenario: Positive test validation login" time="0.0" ignored="true"/>
+        <testcase name="And Click on login link in home page to land on secure sign in page" classname="Scenario: Positive test validation login" time="0.0" ignored="true"/>
+        <testcase name="When User enters &quot;test99@gmail.com&quot; and &quot;123456&quot; and logs in" classname="Scenario: Positive test validation login" time="0.0" ignored="true"/>
+        <testcase name="Then Verify that the user is successfully logged in" classname="Scenario: Positive test validation login" time="0.004" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

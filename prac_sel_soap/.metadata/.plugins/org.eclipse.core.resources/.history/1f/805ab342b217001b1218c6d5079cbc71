@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="HomePage">
+    <classes>
+      <class name="Academy.E2EProjct.hompage"/>
+      
+    </classes>
+    </test>
+     <test thread-count="5" name="validating nav bar">
+    <classes>
+    <class name="Academy.E2EProjct.validatenavbar"/>
+    </classes>
+    </test>
+     <test thread-count="5" name="App Testing"><classes>
+      <class name="Academy.E2EProjct.AppTest"/>
+      </classes>
+      </test>
+     <test name="Validating test">
+      <classes>
+      <class name="Academy.E2EProjct.validateText"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,53 @@
+package Academy.E2EProjct;
+
+import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import pageObject.LandingPage;
+import resources.base;
+
+public class validatenavbar extends base{
+
+	public WebDriver driver;
+	public static Logger log = LogManager.getLogger(base.class.getName());
+	@BeforeTest
+	public void vuserinit() throws InterruptedException, IOException 
+	{
+		driver=intailizedriver();
+		log.info("driver intialized");
+		String url=prop.getProperty("url");
+		driver.get(url);
+		log.info("hitting home page");
+		String wait=prop.getProperty("wait");
+		int wait1 = Integer.valueOf(wait);
+		Thread.sleep(wait1);
+		log.info("waiting for 5 sec");
+		
+	}
+	@Test
+	public void ValidationtNavBar() throws IOException, InterruptedException 
+	{
+		
+		LandingPage l=new LandingPage(driver);
+		
+		Assert.assertTrue(l.headerbar().isDisplayed());
+//		Assert.assertEquals(l.getText().getText(), "Learn Earn & Shine");
+		log.info("Nav bar is displayed");
+		
+		
+	}
+	@AfterTest
+	public void vuserend() 
+	{
+		driver.close();
+		log.info("driver closed");
+	}
+	
+}
